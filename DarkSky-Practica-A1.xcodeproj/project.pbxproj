@@ -12,12 +12,9 @@
 		3A3509922082819600C68F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3509902082819600C68F2D /* Main.storyboard */; };
 		3A3509942082819700C68F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3509932082819700C68F2D /* Assets.xcassets */; };
 		3A3509972082819700C68F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3509952082819700C68F2D /* LaunchScreen.storyboard */; };
-		3A3509A22082819800C68F2D /* DarkSky_Practica_A1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3509A12082819800C68F2D /* DarkSky_Practica_A1Tests.swift */; };
 		3A3509AD20828EBF00C68F2D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3509AC20828EBF00C68F2D /* WeatherService.swift */; };
 		3A3509AF208299D500C68F2D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3509AE208299D500C68F2D /* NetworkManager.swift */; };
 		3A3509B120829D4700C68F2D /* forecastResponseFixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3509B020829D4700C68F2D /* forecastResponseFixture.json */; };
-		D7065D21F8BF26F03D3EA6B4 /* Pods_DarkSky_Practica_A1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F8D129B12785FE27EBDC49 /* Pods_DarkSky_Practica_A1.framework */; };
-		E20E0712626470EE35694A30 /* Pods_DarkSky_Practica_A1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C7548624AF44DB859F4E96 /* Pods_DarkSky_Practica_A1Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		229EB0B1A0B83BE70396CC15 /* Pods-DarkSky-Practica-A1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-Practica-A1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSky-Practica-A1Tests/Pods-DarkSky-Practica-A1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A3509892082819600C68F2D /* DarkSky-Practica-A1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarkSky-Practica-A1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A35098C2082819600C68F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A35098E2082819600C68F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,16 +36,10 @@
 		3A3509962082819700C68F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A3509982082819700C68F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A35099D2082819800C68F2D /* DarkSky-Practica-A1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarkSky-Practica-A1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A3509A12082819800C68F2D /* DarkSky_Practica_A1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSky_Practica_A1Tests.swift; sourceTree = "<group>"; };
 		3A3509A32082819800C68F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A3509AC20828EBF00C68F2D /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		3A3509AE208299D500C68F2D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3A3509B020829D4700C68F2D /* forecastResponseFixture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forecastResponseFixture.json; sourceTree = "<group>"; };
-		66F8D129B12785FE27EBDC49 /* Pods_DarkSky_Practica_A1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky_Practica_A1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9247A526AC2D6BBC208E321C /* Pods-DarkSky-Practica-A1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-Practica-A1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSky-Practica-A1Tests/Pods-DarkSky-Practica-A1Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		98E17926C34284616D98854B /* Pods-DarkSky-Practica-A1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-Practica-A1.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSky-Practica-A1/Pods-DarkSky-Practica-A1.release.xcconfig"; sourceTree = "<group>"; };
-		AB95EDA0ADAB19E8257303F1 /* Pods-DarkSky-Practica-A1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-Practica-A1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSky-Practica-A1/Pods-DarkSky-Practica-A1.debug.xcconfig"; sourceTree = "<group>"; };
-		F7C7548624AF44DB859F4E96 /* Pods_DarkSky_Practica_A1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky_Practica_A1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7065D21F8BF26F03D3EA6B4 /* Pods_DarkSky_Practica_A1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20E0712626470EE35694A30 /* Pods_DarkSky_Practica_A1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +66,6 @@
 				3A35098B2082819600C68F2D /* DarkSky-Practica-A1 */,
 				3A3509A02082819800C68F2D /* DarkSky-Practica-A1Tests */,
 				3A35098A2082819600C68F2D /* Products */,
-				43C7117494473E2C0967245C /* Pods */,
-				F9FEB76D21FB6572483E60AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,30 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				3A3509B020829D4700C68F2D /* forecastResponseFixture.json */,
-				3A3509A12082819800C68F2D /* DarkSky_Practica_A1Tests.swift */,
 				3A3509A32082819800C68F2D /* Info.plist */,
 			);
 			path = "DarkSky-Practica-A1Tests";
-			sourceTree = "<group>";
-		};
-		43C7117494473E2C0967245C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB95EDA0ADAB19E8257303F1 /* Pods-DarkSky-Practica-A1.debug.xcconfig */,
-				98E17926C34284616D98854B /* Pods-DarkSky-Practica-A1.release.xcconfig */,
-				9247A526AC2D6BBC208E321C /* Pods-DarkSky-Practica-A1Tests.debug.xcconfig */,
-				229EB0B1A0B83BE70396CC15 /* Pods-DarkSky-Practica-A1Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F9FEB76D21FB6572483E60AA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				66F8D129B12785FE27EBDC49 /* Pods_DarkSky_Practica_A1.framework */,
-				F7C7548624AF44DB859F4E96 /* Pods_DarkSky_Practica_A1Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +109,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A3509A62082819800C68F2D /* Build configuration list for PBXNativeTarget "DarkSky-Practica-A1" */;
 			buildPhases = (
-				0C5379A2C042163DBD6D8F12 /* [CP] Check Pods Manifest.lock */,
 				3A3509852082819600C68F2D /* Sources */,
 				3A3509862082819600C68F2D /* Frameworks */,
 				3A3509872082819600C68F2D /* Resources */,
@@ -162,11 +126,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A3509A92082819800C68F2D /* Build configuration list for PBXNativeTarget "DarkSky-Practica-A1Tests" */;
 			buildPhases = (
-				11CC6FFE8FB7435466B18BD2 /* [CP] Check Pods Manifest.lock */,
 				3A3509992082819800C68F2D /* Sources */,
 				3A35099A2082819800C68F2D /* Frameworks */,
 				3A35099B2082819800C68F2D /* Resources */,
-				9E106893B91007C210752598 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,63 +199,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0C5379A2C042163DBD6D8F12 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DarkSky-Practica-A1-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		11CC6FFE8FB7435466B18BD2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DarkSky-Practica-A1Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9E106893B91007C210752598 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DarkSky-Practica-A1Tests/Pods-DarkSky-Practica-A1Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkSky-Practica-A1Tests/Pods-DarkSky-Practica-A1Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		3A3509852082819600C68F2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -310,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A3509A22082819800C68F2D /* DarkSky_Practica_A1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,13 +364,15 @@
 		};
 		3A3509A72082819800C68F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB95EDA0ADAB19E8257303F1 /* Pods-DarkSky-Practica-A1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -476,13 +382,15 @@
 		};
 		3A3509A82082819800C68F2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E17926C34284616D98854B /* Pods-DarkSky-Practica-A1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -492,14 +400,17 @@
 		};
 		3A3509AA2082819800C68F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9247A526AC2D6BBC208E321C /* Pods-DarkSky-Practica-A1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,14 +421,17 @@
 		};
 		3A3509AB2082819800C68F2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 229EB0B1A0B83BE70396CC15 /* Pods-DarkSky-Practica-A1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
