@@ -20,8 +20,7 @@ class NetworkManager {
                 return
             }
             
-            completion(data
-            )
+            completion(data)
             }.resume()
     }
 }

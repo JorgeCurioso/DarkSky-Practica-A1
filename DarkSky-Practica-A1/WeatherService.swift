@@ -14,9 +14,9 @@ struct WeatherForecast {
 
 class WeatherService {
     
-    private let scheme = "https"
-    private let host = "api.darksky.net"
-    private let key = ""
+    private let darkSkyScheme = "https"
+    private let darkSkyHost = "api.darksky.net"
+    private let darkSkyKey = ""
     private let location = "42.3314,-83.0458"
     
     func getDailyForecast(completion: @escaping (WeatherForecast) -> ()) {
@@ -41,9 +41,9 @@ class WeatherService {
     
     private func forecastURL() -> URL? {
         var components = URLComponents()
-        components.scheme = "https"
-        components.host = "api.darksky.net"
-        components.path = "/forecast/\(key)/\(location)"
+        components.scheme = darkSkyKey
+        components.host = darkSkyHost
+        components.path = "/forecast/\(darkSkyKey)/\(location)"
         
         return components.url
     }
