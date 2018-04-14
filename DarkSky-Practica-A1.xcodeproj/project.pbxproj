@@ -13,6 +13,7 @@
 		3A3509942082819700C68F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3509932082819700C68F2D /* Assets.xcassets */; };
 		3A3509972082819700C68F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3509952082819700C68F2D /* LaunchScreen.storyboard */; };
 		3A3509A22082819800C68F2D /* DarkSky_Practica_A1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3509A12082819800C68F2D /* DarkSky_Practica_A1Tests.swift */; };
+		3A3509AD20828EBF00C68F2D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3509AC20828EBF00C68F2D /* WeatherService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3A35099D2082819800C68F2D /* DarkSky-Practica-A1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarkSky-Practica-A1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3509A12082819800C68F2D /* DarkSky_Practica_A1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSky_Practica_A1Tests.swift; sourceTree = "<group>"; };
 		3A3509A32082819800C68F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3509AC20828EBF00C68F2D /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3A3509932082819700C68F2D /* Assets.xcassets */,
 				3A3509952082819700C68F2D /* LaunchScreen.storyboard */,
 				3A3509982082819700C68F2D /* Info.plist */,
+				3A3509AC20828EBF00C68F2D /* WeatherService.swift */,
 			);
 			path = "DarkSky-Practica-A1";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A35098F2082819600C68F2D /* ViewController.swift in Sources */,
+				3A3509AD20828EBF00C68F2D /* WeatherService.swift in Sources */,
 				3A35098D2082819600C68F2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
