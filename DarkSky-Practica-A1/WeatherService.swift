@@ -41,7 +41,7 @@ class WeatherService {
     
     private func forecastURL() -> URL? {
         var components = URLComponents()
-        components.scheme = darkSkyKey
+        components.scheme = darkSkyScheme
         components.host = darkSkyHost
         components.path = "/forecast/\(darkSkyKey)/\(location)"
         
