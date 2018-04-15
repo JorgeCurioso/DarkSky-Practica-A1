@@ -15,6 +15,9 @@
 		3A3509AD20828EBF00C68F2D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3509AC20828EBF00C68F2D /* WeatherService.swift */; };
 		3A3509AF208299D500C68F2D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3509AE208299D500C68F2D /* NetworkManager.swift */; };
 		3A3509B120829D4700C68F2D /* forecastResponseFixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3509B020829D4700C68F2D /* forecastResponseFixture.json */; };
+		3AB4B2022083073800F1C865 /* CurrentWeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4B2012083073800F1C865 /* CurrentWeatherForecast.swift */; };
+		3AB4B20420830E6600F1C865 /* WeatherSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4B20320830E6600F1C865 /* WeatherSnapshot.swift */; };
+		3AB4B20620830E7500F1C865 /* HourlyWeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4B20520830E7500F1C865 /* HourlyWeatherForecast.swift */; };
 		9FA62B54D08E2133703E868C /* Pods_DarkSky_Practica_A1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59D5F0E76BC8C3BE02E2886 /* Pods_DarkSky_Practica_A1Tests.framework */; };
 		A1873F5DDB5459832D68BE0E /* Pods_DarkSky_Practica_A1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3853D4EEA8C52FE99F589E26 /* Pods_DarkSky_Practica_A1.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +47,9 @@
 		3A3509AC20828EBF00C68F2D /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		3A3509AE208299D500C68F2D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3A3509B020829D4700C68F2D /* forecastResponseFixture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forecastResponseFixture.json; sourceTree = "<group>"; };
+		3AB4B2012083073800F1C865 /* CurrentWeatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherForecast.swift; sourceTree = "<group>"; };
+		3AB4B20320830E6600F1C865 /* WeatherSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSnapshot.swift; sourceTree = "<group>"; };
+		3AB4B20520830E7500F1C865 /* HourlyWeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherForecast.swift; sourceTree = "<group>"; };
 		41E6161584C68DB493628CEF /* Pods-DarkSky-Practica-A1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-Practica-A1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSky-Practica-A1Tests/Pods-DarkSky-Practica-A1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9E1572C3D23CF3759DE98B92 /* Pods-DarkSky-Practica-A1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky-Practica-A1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSky-Practica-A1/Pods-DarkSky-Practica-A1.debug.xcconfig"; sourceTree = "<group>"; };
 		F59D5F0E76BC8C3BE02E2886 /* Pods_DarkSky_Practica_A1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky_Practica_A1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +105,9 @@
 				3A3509932082819700C68F2D /* Assets.xcassets */,
 				3A3509952082819700C68F2D /* LaunchScreen.storyboard */,
 				3A3509982082819700C68F2D /* Info.plist */,
-				3A3509AC20828EBF00C68F2D /* WeatherService.swift */,
+				3AB4B20820830EF000F1C865 /* Services */,
 				3A3509AE208299D500C68F2D /* NetworkManager.swift */,
+				3AB4B20720830EE600F1C865 /* Models */,
 			);
 			path = "DarkSky-Practica-A1";
 			sourceTree = "<group>";
@@ -112,6 +119,24 @@
 				3A3509A32082819800C68F2D /* Info.plist */,
 			);
 			path = "DarkSky-Practica-A1Tests";
+			sourceTree = "<group>";
+		};
+		3AB4B20720830EE600F1C865 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4B2012083073800F1C865 /* CurrentWeatherForecast.swift */,
+				3AB4B20320830E6600F1C865 /* WeatherSnapshot.swift */,
+				3AB4B20520830E7500F1C865 /* HourlyWeatherForecast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AB4B20820830EF000F1C865 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A3509AC20828EBF00C68F2D /* WeatherService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		4D314721FA5A50732A2459A2 /* Pods */ = {
@@ -296,7 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB4B20620830E7500F1C865 /* HourlyWeatherForecast.swift in Sources */,
 				3A3509AF208299D500C68F2D /* NetworkManager.swift in Sources */,
+				3AB4B2022083073800F1C865 /* CurrentWeatherForecast.swift in Sources */,
+				3AB4B20420830E6600F1C865 /* WeatherSnapshot.swift in Sources */,
 				3A35098F2082819600C68F2D /* ViewController.swift in Sources */,
 				3A3509AD20828EBF00C68F2D /* WeatherService.swift in Sources */,
 				3A35098D2082819600C68F2D /* AppDelegate.swift in Sources */,
@@ -462,7 +490,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -478,7 +509,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -495,7 +529,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -513,7 +551,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39MD5QHZ3X;
 				INFOPLIST_FILE = "DarkSky-Practica-A1Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.someCompany.DarkSky-Practica-A1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

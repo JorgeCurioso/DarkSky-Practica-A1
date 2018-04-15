@@ -8,8 +8,9 @@
 
 import Foundation
 
-struct WeatherForecast {
-    
+private struct WeatherInfo: Codable {
+    let currently: RawCurrentWeatherForecast
+    let hourly: RawHourlyWeatherForecast
 }
 
 class WeatherService {
@@ -19,23 +20,24 @@ class WeatherService {
     private let darkSkyKey = ""
     private let location = "42.3314,-83.0458"
     
-    func getDailyForecast(completion: @escaping (WeatherForecast) -> ()) {
+    func getDailyForecast(completion: @escaping (CurrentWeatherForecast, HourlyWeatherForecast) -> ()) {
         guard let url = forecastURL() else {
             print("could not construct forecast url")
             return
         }
         
         NetworkManager.getDataFor(url: url) { (data) in
-            var json: [String: Any] = [:]
             do {
-                json = try JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                let weatherInfo = try JSONDecoder().decode(WeatherInfo.self, from: data)
+                let current = CurrentWeatherForecast(raw: weatherInfo.currently)
+                let hourly = HourlyWeatherForecast(raw: weatherInfo.hourly)
+                
+                completion(current, hourly)
             }
             catch {
                 print("could not create json object")
             }
-            
-            print(json)
-            completion(WeatherForecast())
+
         }
     }
     
