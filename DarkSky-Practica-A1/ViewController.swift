@@ -13,8 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let weatherService = WeatherService()
-        weatherService.getDailyForecast { (forecast) in
+        weatherService.getDailyForecast { (current, hourly)  in
+            print("current: \(current.temperature)\n\n")
             
+            print("**hourly**")
+
+            hourly.forecast.forEach({ (snapshot) in
+                print("snapshot: \(snapshot.temperature)")
+            })
         }
     }
 
